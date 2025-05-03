@@ -5,6 +5,12 @@
 
 ---
 
+<p style="text-align: center;">
+<img src="https://moneroecosystem.com/content/images/2025/04/header-ajudte.png" alt="Monero Ecosystem"></img>
+</p>
+
+---
+
 ## 📑 Table of Contents
 - [Projects](#-projects)
   - [Decentralised Exchanges](#decentralised-exchanges)
