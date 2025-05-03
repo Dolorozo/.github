@@ -4,15 +4,19 @@
 > Pull requests are warmly welcome – see **[Contributing](#-contributing)**!
 
 <!-- Centered image with white background + subtle 10 px rounded corners -->
-<p align="center">
-  <img
-    src="https://moneroecosystem.com/content/images/2025/04/header-ajudte.png"
-    alt="Monero Ecosystem Header"
-    style="
+<p align="center" style="
+      max-width:100%;
+      height:auto;
       background-color:#ffffff;         
       border:1px solid #e9e9e9;
       border-radius:10px;
       padding:6px;
+    "
+  />
+  <img
+    src="https://moneroecosystem.com/content/images/2025/04/header-ajudte.png"
+    alt="Monero Ecosystem Header"
+    style="
       max-width:100%;
       height:auto;
     "
