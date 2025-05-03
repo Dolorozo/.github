@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-<img src="https://moneroecosystem.com/content/images/size/w1075h650/2025/04/image--2--2.png" width="200px" alt="Monero Ecosystem"></img>
+<img src="https://moneroecosystem.com/content/images/size/w1075h650/2025/04/image--2--2.png" width="200px" height="auto" alt="Monero Ecosystem"></img>
 </p>
 
 ---
