@@ -1,7 +1,7 @@
-# Awesome Monero Ecosystem [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Monero Ecosystem&nbsp;[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A **curated catalogue** of projects, services, and resources for the privacy-preserving cryptocurrency **Monero (XMR)** pulled an managed from the [Monero Ecosystem](https://moneroecosystem.com) website..  
-> Pull requests are warmly welcome – see the [Contributing](#-contributing) section!
+> A **curated catalogue** of projects, services, and resources for the privacy-preserving cryptocurrency **Monero (XMR)**, synced with the listings on [MoneroEcosystem.com](https://moneroecosystem.com).  
+> Pull requests are warmly welcome – see **[Contributing](#-contributing)**!
 
 ---
 
@@ -15,6 +15,7 @@
   - [Research & Academic Papers](#research--academic-papers)
 - [Services](#-services)
   - [Hosting / VPS](#hosting--vps)
+  - [VPN & Privacy](#vpn--privacy)
   - [SMS & Telecom](#sms--telecom)
   - [Payment Processors](#payment-processors)
   - [Gift Cards & Retail](#gift-cards--retail)
@@ -27,85 +28,111 @@
 ## 🚀 Projects
 
 ### Decentralised Exchanges
-| Project | Link | Description |
-|---------|------|-------------|
-| **Haveno Multi-Platform App** | <https://github.com/KewbitXMR/haveno-app> | Bisq-inspired, Monero-first DEX for fiat/XMR and crypto/XMR trades. |
-| **Haveno** | <https://github.com/haveno-dex/haveno> | Bisq-inspired, Monero-first DEX for fiat/XMR and crypto/XMR trades. |
-| **Serai** | <https://github.com/serai-dex> | Cross-chain DEX under active research, aiming for trust-minimised XMR ↔ BTC/ETH swaps. |
-| **BasicSwap** | <https://github.com/particl/basic-swaps> | Atomic-swap marketplace supporting XMR, BTC, LTC, and PART. |
+| Project | Description |
+|---------|-------------|
+| [**Haveno Multi-Platform App**](https://moneroecosystem.com/projects/haveno) | Bisq-inspired, Monero-first DEX for fiat/XMR and crypto/XMR trades. |
+| [**Serai**](https://moneroecosystem.com/projects/serai-dex) | Cross-chain DEX under active R&D, aiming for trust-minimised XMR ↔ BTC/ETH swaps. |
+| [**BasicSwap**](https://github.com/particl/basicswap) | Atomic-swap marketplace supporting XMR, BTC, LTC, and PART. |
+| [**COMIT Atomic Swaps**](https://github.com/comit-network/xmr-btc-swap) | Reference implementation for non-custodial BTC ↔ XMR swaps via adaptor signatures. |
+| [**ArtoDEX**](https://github.com/artofix/ArtoDEX) | Proof-of-concept layer-2 DEX for XMR ↔ ERC-20 using zkChannels (research stage). |
 
 ### Mining
-| Project | Link | Description |
-|---------|------|-------------|
-| **P2Pool** | <https://gitlab.com/SChernykh/p2pool> | Peer-to-peer pool with no central server; keeps mining fully non-custodial. |
-| **XMRig** | <https://github.com/xmrig/xmrig> | Popular high-performance CPU/GPU miner with JSON-RPC & Open-CL support. |
-| **MoneroOcean** | <https://moneroocean.stream> | Auto-profit-switching pool that pays out in XMR. |
+| Project | Description |
+|---------|-------------|
+| [**P2Pool**](https://gitlab.com/SChernykh/p2pool) | True peer-to-peer pool; keeps mining fully non-custodial. |
+| [**XMRig**](https://github.com/xmrig/xmrig) | Popular high-performance CPU/GPU miner with JSON-RPC & OpenCL/CUDA support. |
+| [**MoneroOcean**](https://moneroocean.stream) | Auto-profit-switching pool that pays out in XMR. |
+| [**cpuminer-opt-xmrig**](https://github.com/JayDDee/cpuminer-opt) | Optimised legacy CPU miner with RandomX support. |
 
 ### Wallets
-| Project | Link | Description |
-|---------|------|-------------|
-| **Feather Wallet** | <https://github.com/feather-wallet/feather> | Lightweight desktop wallet with built-in Tor, view-only mode, & coin-control. |
-| **Monerujo** | <https://github.com/m2049r/xmrwallet> | Long-standing Android wallet; supports multiple accounts and NFC payments. |
-| **Cake Wallet / Monero.com** | <https://github.com/cake-tech> | iOS & Android wallets with built-in exchange, multiple fiat on-ramps, and FOSS builds. |
+| Project | Description |
+|---------|-------------|
+| [**Feather Wallet**](https://github.com/feather-wallet/feather) | Lightweight desktop wallet with Tor, view-only mode & coin control. |
+| [**Monerujo**](https://github.com/m2049r/xmrwallet) | Full-featured Android wallet with NFC pay & node auto-sync. |
+| [**Cake Wallet / Monero.com**](https://github.com/cake-tech) | iOS & Android wallets with built-in exchange and fiat on-ramps. |
+| [**MyMonero**](https://github.com/mymonero) | Web & desktop light-wallet; serverless mode available. |
+| [**Edge Wallet**](https://edge.app) | Multi-coin mobile wallet supporting XMR with client-side encryption. |
 
 ### Developer Resources & SDKs
-| Resource | Link | Description |
-|----------|------|-------------|
-| **monero-rs** | <https://github.com/monero-rs/monero-rs> | Idiomatic Rust library & CLI for building Monero apps. |
-| **monero-python** | <https://github.com/monero-ecosystem/monero-python> | High-level Python bindings for RPC & wallet interactions. |
-| **Monero RPC Spec** | <https://github.com/monero-project/monero/blob/master/doc/README.md> | Authoritative RPC docs for `monerod` & `monero-wallet-rpc`. |
+| Resource | Description |
+|----------|-------------|
+| [**monero-rs**](https://github.com/monero-rs/monero-rs) | Idiomatic Rust crate & CLI for building Monero apps. |
+| [**monero-python**](https://github.com/monero-ecosystem/monero-python) | High-level Python bindings for daemon & wallet RPC. |
+| [**Monero RPC Spec**](https://github.com/monero-project/monero/blob/master/doc/README.md) | Authoritative docs for `monerod` & `monero-wallet-rpc`. |
+| [**monero-javascript**](https://github.com/monero-ecosystem/monero-javascript) | TypeScript/JS library for browser & Node.js integrations. |
+| [**Monero-CLI Docker**](https://github.com/moneroexamples/docker) | Ready-to-run container images for nodes & wallets. |
 
 ### Explorers & Analytics
-| Tool | Link | Description |
-|------|------|-------------|
-| **xmrchain.net** | <https://xmrchain.net> | Open-source explorer with tx decoding, key-image checks, and JSON API. |
-| **MoneroBlocks.info** | <https://moneroblocks.info> | Minimalist chain explorer & network stats dashboard. |
+| Tool | Description |
+|------|-------------|
+| [**xmrchain.net**](https://xmrchain.net) | Open-source explorer with tx decoding, key-image checks & JSON API. |
+| [**MoneroBlocks.info**](https://moneroblocks.info) | Minimalist chain explorer & real-time network stats. |
+| [**MoneroVision**](https://monerovision.com) | Rich visual explorer with mixin analysis & node map. |
 
 ### Research & Academic Papers
-| Collection | Link | Description |
-|------------|------|-------------|
-| **Monero Research Lab Papers** | <https://github.com/monero-project/research-lab> | Canonical repository of MRL whitepapers (RingCT, CLSAG, Seraphis, etc.). |
-| **Breaking Monero** | <https://www.youtube.com/c/MoneroCommunityWorkgroup/playlists> | Video series dissecting known weaknesses & metadata leaks (with references). |
+| Collection | Description |
+|------------|-------------|
+| [**Monero Research Lab Papers**](https://github.com/monero-project/research-lab) | Canonical whitepapers: RingCT, CLSAG, Seraphis, Jamtis, etc. |
+| [**Breaking Monero**](https://www.youtube.com/@MoneroCommunityWorkgroup/playlists) | Deep-dive video series on known weaknesses & mitigations. |
+| [**Seraphis & Jamtis Spec**](https://github.com/UkoeHB/Seraphis) | Next-gen addressing & tx protocol spec documents. |
 
 ---
 
 ## 🌐 Services
 
 ### Hosting / VPS
-| Service | Link | Notes |
-|---------|------|-------|
-| **Njalla** | <https://njal.la> | Privacy-focused VPS/domain provider; accepts XMR. |
-| **VPSMonero** | <https://vpsmonero.com> | Budget KVM servers payable exclusively in Monero. |
-| **SnowHost** | <https://snowhost.eu> | European hosting, offshore friendly, XMR accepted. |
+| Service | Notes |
+|---------|-------|
+| [**Njalla**](https://njal.la) | Privacy-first VPS & domains; accepts XMR. |
+| [**VPSMonero**](https://vpsmonero.com) | Budget KVM servers payable exclusively in Monero. |
+| [**SnowHost**](https://snowhost.eu) | Offshore-friendly EU hosting with XMR checkout. |
+
+### VPN & Privacy
+| Service | Notes |
+|---------|-------|
+| [**Mullvad VPN**](https://mullvad.net) | Zero-log VPN with account-number auth; Monero payments. |
+| [**IVPN**](https://ivpn.net) | WireGuard/OpenVPN, anonymous accounts, accepts XMR. |
+| [**DNSThingy**](https://dnsthingy.com) | DNS firewall & custom resolver paying in XMR. |
+| [**ProtonVPN**](https://protonvpn.com) | Switzerland-based privacy VPN with Tor & onion, accepts BTC. |
 
 ### SMS & Telecom
-| Service | Link | Notes |
-|---------|------|-------|
-| **SMSPool** | <https://smspool.net> | Disposable phone numbers; pay in XMR without KYC. |
-| **Silent Link** | <https://silent.link> | eSIM with data & SMS, anonymous sign-up; accepts Monero. |
+| Service | Notes |
+|---------|-------|
+| [**SMSPool**](https://smspool.net) | Disposable phone numbers; pay in XMR without KYC. |
+| [**Silent Link**](https://silent.link) | eSIM with data & SMS; anonymous signup, XMR accepted. |
+| [**AloSIM**](https://alosim.com) | Pre-paid eSIM data; Monero payment via Coinbase Commerce. |
 
 ### Payment Processors
-| Processor | Link | Notes |
-|-----------|------|-------|
-| **BTCPayServer (+ Monero plugin)** | <https://github.com/BTCPrivatePay/btcpayserver-monerotail> | Self-hosted checkout supporting XMR along-side BTC & LN. |
-| **GloBee** | <https://globee.com> | Multi-coin gateway offering auto-settlement to fiat or XMR. |
+| Processor | Notes |
+|-----------|-------|
+| [**BTCPayServer (+ Monero plugin)**](https://github.com/BTCPrivatePay/btcpayserver-monero) | Self-hosted checkout supporting XMR, BTC & LN. |
+| [**NOWPayments**](https://nowpayments.io) | Non-custodial gateway; auto-convert to fiat or crypto. |
+| [**GloBee**](https://globee.com) | Multi-coin gateway offering auto-settlement to XMR/fiat. |
+| [**CoinGate**](https://coingate.com) | Merchant API & plugins with Monero support, payouts in EUR/USD/XMR. |
 
 ### Gift Cards & Retail
-| Merchant | Link | Notes |
-|----------|------|-------|
-| **BitRefill** | <https://www.bitrefill.com> | Global gift cards & mobile top-ups; pays in XMR. |
-| **CoinCards** | <https://coincards.com> | Canada, US & EU gift-card shop with Monero checkout. |
+| Merchant | Notes |
+|----------|-------|
+| [**BitRefill**](https://www.bitrefill.com) | Global gift cards & mobile top-ups payable in XMR. |
+| [**CoinCards**](https://coincards.com) | CA/US/EU gift-card shop with Monero checkout. |
+| [**CryptoRefills**](https://cryptorefills.com) | Digital vouchers & mobile refills; accepts Monero. |
 
 *(Know another service? Open a PR!)*
+
+## Communities
+| Platform | Connection Info |
+|----------|-------|
+| [**XMR Social**](https://xmr.social) | A decentralized-federated version of Reddit due to moderation monopoly. |
+| [**CryptoSocial App**](https://cryptosocial.app/) | CA/US/EU gift-card shop with Monero checkout. |
 
 ---
 
 ## 👥 Contributors
-| Handle | Role / Focus |
-|--------|--------------|
+| Handle | Focus |
+|--------|-------|
 | `@your-github` | Maintainer |
 | `@another-person` | Mining section lead |
-| *You?* | *Add yourself in your first PR!* |
+| *You?* | Add yourself in your first PR! |
 
 ---
 
