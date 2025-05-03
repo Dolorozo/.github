@@ -9,11 +9,11 @@
     src="https://moneroecosystem.com/content/images/2025/04/header-ajudte.png"
     alt="Monero Ecosystem Header"
     style="
-      background:#ffffff;          /* white backdrop */
-      border:1px solid #e9e9e9;    /* faint outline   */
-      border-radius:10px;          /* soft corners    */
-      padding:6px;                 /* keep image off the edge */
-      max-width:100%;              /* responsive      */
+      background-color:#ffffff;         
+      border:1px solid #e9e9e9;
+      border-radius:10px;
+      padding:6px;
+      max-width:100%;
       height:auto;
     "
   />
