@@ -1,6 +1,6 @@
-# Awesome Monero [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Monero Ecosystem [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A **curated catalogue** of projects, services, and resources for the privacy-preserving cryptocurrency **Monero (XMR)**.  
+> A **curated catalogue** of projects, services, and resources for the privacy-preserving cryptocurrency **Monero (XMR)** pulled an managed from the [Monero Ecosystem](https://moneroecosystem.com) website..  
 > Pull requests are warmly welcome – see the [Contributing](#-contributing) section!
 
 ---
@@ -29,6 +29,7 @@
 ### Decentralised Exchanges
 | Project | Link | Description |
 |---------|------|-------------|
+| **Haveno Multi-Platform App** | <https://github.com/KewbitXMR/haveno-app> | Bisq-inspired, Monero-first DEX for fiat/XMR and crypto/XMR trades. |
 | **Haveno** | <https://github.com/haveno-dex/haveno> | Bisq-inspired, Monero-first DEX for fiat/XMR and crypto/XMR trades. |
 | **Serai** | <https://github.com/serai-dex> | Cross-chain DEX under active research, aiming for trust-minimised XMR ↔ BTC/ETH swaps. |
 | **BasicSwap** | <https://github.com/particl/basic-swaps> | Atomic-swap marketplace supporting XMR, BTC, LTC, and PART. |
