@@ -5,8 +5,8 @@
 
 ---
 
-<p style="text-align: center;">
-<img src="https://moneroecosystem.com/content/images/2025/04/header-ajudte.png" alt="Monero Ecosystem"></img>
+<p align="center">
+<img src="https://moneroecosystem.com/content/images/size/w1075h650/2025/04/image--2--2.png" width="200px" alt="Monero Ecosystem"></img>
 </p>
 
 ---
