@@ -4,7 +4,7 @@
 > Pull requests are warmly welcome – see **[Contributing](#-contributing)**!
 
 <!-- Centered image with white background + subtle 10 px rounded corners -->
-<p align="center" background="white" style="
+<p align="center" background-color="white" style="
       max-width:100%;
       height:auto;
       background:#ffffff;         
