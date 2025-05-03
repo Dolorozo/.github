@@ -4,10 +4,10 @@
 > Pull requests are warmly welcome – see **[Contributing](#-contributing)**!
 
 <!-- Centered image with white background + subtle 10 px rounded corners -->
-<p align="center" style="
+<p align="center" background="white" style="
       max-width:100%;
       height:auto;
-      background-color:#ffffff;         
+      background:#ffffff;         
       border:1px solid #e9e9e9;
       border-radius:10px;
       padding:6px;
