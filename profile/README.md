@@ -3,8 +3,20 @@
 > A **curated catalogue** of projects, services, and resources for the privacy-preserving cryptocurrency **Monero (XMR)**, synced with the listings on [MoneroEcosystem.com](https://moneroecosystem.com).  
 > Pull requests are warmly welcome – see **[Contributing](#-contributing)**!
 
+<!-- Centered image with white background + subtle 10 px rounded corners -->
 <p align="center">
-<img src="https://moneroecosystem.com/content/images/size/w300h300/2025/04/ecosystem.png" width="60px" height="auto" alt="Monero Ecosystem"></img>
+  <img
+    src="https://moneroecosystem.com/content/images/2025/04/header-ajudte.png"
+    alt="Monero Ecosystem Header"
+    style="
+      background:#ffffff;          /* white backdrop */
+      border:1px solid #e9e9e9;    /* faint outline   */
+      border-radius:10px;          /* soft corners    */
+      padding:6px;                 /* keep image off the edge */
+      max-width:100%;              /* responsive      */
+      height:auto;
+    "
+  />
 </p>
 
 ## 📑 Table of Contents
